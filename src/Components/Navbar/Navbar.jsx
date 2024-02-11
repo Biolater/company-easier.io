@@ -40,7 +40,6 @@ const Navbar = () => {
           console.error("Failed to fetch user details:", error);
         });
     }
-
     return () => {
       window.removeEventListener("resize", handleResizeThrottled);
     };
